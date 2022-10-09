@@ -1,0 +1,17 @@
+.testimonial_item {
+    padding: 0px 20px;
+}
+
+.testimonial_client {
+    display: flex;
+    column-gap: 1rem;
+    margin-bottom: 30px;
+}
+
+.testimonial_client h6 {
+    font-weight: 400;
+}
+
+.testimonial_client h6:last-child {
+    color: #01d293;
+}

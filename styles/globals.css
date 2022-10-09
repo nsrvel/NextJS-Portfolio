@@ -33,7 +33,7 @@ h6 {
 }
 
 h2 {
-    font-size: 2, 5rem;
+    font-size: 2.5rem !important;
 }
 
 section {
@@ -46,9 +46,10 @@ footer {
 }
 
 .primary_btn {
-    background-color: #171f38 !important;
-    padding: 7px 20px !important;
-    border: 1px solid #01d293;
+    background: #171f38 !important;
+    padding: 7px 25px !important;
+    border: 1px solid #01d293 !important;
+    border-radius: 5px;
 }
 
 .primary_btn a {
@@ -70,5 +71,15 @@ footer {
 
 .primary_btn a:hover,
 .secondary_btn a:hover {
-    color: unset;
+    color: #01d293;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #808dad;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2em;
+    background: #171f38;
 }

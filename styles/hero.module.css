@@ -1,0 +1,78 @@
+.hero {
+    padding-top: 60px !important;
+}
+
+.hero_content h5 {
+    color: #808dad;
+    font-weight: 400;
+}
+
+.hero_content {
+    padding-top: 50px;
+}
+
+.hero_img {
+    position: relative;
+    z-index: 9;
+}
+
+.hero_img img {
+    border-radius: 50px 5px 5px 5px;
+}
+
+.hero_skills {
+    text-align: left;
+    width: 130px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    background: #808dad26;
+    z-index: 10;
+}
+
+.hero_skills h6 {
+    background: transparent;
+    color: #fff;
+}
+
+.hero_skills span i {
+    color: #01d293;
+    background: transparent;
+}
+
+.hero_skills span {
+    background: transparent;
+}
+
+.hero_experience {
+    width: 150px;
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #808dad26;
+    z-index: 10;
+}
+
+.hero_experience span,
+.hero_experience h5,
+.hero_experience h6 {
+    background: transparent !important;
+}
+
+.hero_experience h6 {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.hero_experience span i {
+    padding: 5px;
+    color: #01d293;
+    background: #808dad70;
+    border-radius: 5px;
+}

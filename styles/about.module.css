@@ -1,0 +1,19 @@
+.about_icon i {
+    color: #01d293;
+}
+
+.about_img {
+    padding: 10px;
+    background: #171f38;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.about_img img {
+    width: 100% !important;
+    border-radius: 5px;
+}
+
+.about_img_box {
+    width: 200px !important;
+}
